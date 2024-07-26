@@ -1,0 +1,66 @@
+.settings-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .settings-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .settings-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .settings-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .settings-section li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, padding-left 0.3s;
+    border-radius: 4px;
+  }
+  
+  .settings-section li svg {
+    margin-right: 10px;
+    color: #555;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .settings-section li:hover {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding-left: 15px;
+  }
+  
+  .settings-section li:hover svg {
+    transform: scale(1.2);
+    color: #00796b;
+  }
+  

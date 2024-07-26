@@ -1,0 +1,51 @@
+/* src/pages/Feed.css */
+.feed-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-icon {
+    margin-left: -30px;
+    color: #555;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.post p {
+    margin: 0;
+    font-size: 16px;
+}
