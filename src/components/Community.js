@@ -25,7 +25,6 @@ const Community = () => {
       )
     );
   };
-
   const handleComment = (id, comment) => {
     setThoughts(
       thoughts.map((thought) =>
@@ -33,7 +32,6 @@ const Community = () => {
       )
     );
   };
-
   return (
     <div className="community-page">
       <h1>Team Community Page</h1>
@@ -69,7 +67,6 @@ const Community = () => {
     </div>
   );
 };
-
 export default Community;
 
 

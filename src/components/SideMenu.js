@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaCog, FaHome, FaUser, FaLeaf, FaCloudSun, FaLightbulb, FaCalendarAlt, FaDollarSign, FaBook, FaStar, FaComments,  FaHandshake } from 'react-icons/fa';
@@ -16,6 +17,9 @@ const SideMenu = () => {
         {isOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
+      <Link to="/home" className="sidebar-item" onClick={toggleSidebar}>
+          
+        </Link>
         <Link to="/home" className="sidebar-item" onClick={toggleSidebar}>
           <FaHome className="icon" /> Home
         </Link>
@@ -43,7 +47,7 @@ const SideMenu = () => {
         <Link to="/success-stories" className="sidebar-item" onClick={toggleSidebar}>
           <FaStar className="icon" /> Success Stories
         </Link>
-        <Link to="/forum" className="sidebar-item" onClick={toggleSidebar}>
+        <Link to="/communityforum" className="sidebar-item" onClick={toggleSidebar}>
           <FaComments className="icon" /> Community Forum
         </Link>
         

@@ -1,0 +1,88 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background-image: url('../assets/farmer.webp');
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-panel h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .left-panel p {
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .right-panel h2 {
+    margin-bottom: 20px;
+  }
+  
+  .right-panel form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .right-panel form input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .create-account-btn {
+    background-color: #66BB6A;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .google-sign-in-btn {
+    background-color: white;
+    border: none;
+    color:  #4CAF50;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .google-sign-in-btn img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  

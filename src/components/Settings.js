@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Settings.css';
@@ -35,3 +36,58 @@ const Settings = () => {
 };
 
 export default Settings;
+*/
+
+
+
+
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Settings.css';
+import { FaUserCircle, FaBell, FaShieldAlt, FaLock, FaTrashAlt, FaKey } from 'react-icons/fa';
+
+const Settings = () => {
+  const navigate = useNavigate();
+
+  const navigateTo = (path) => {
+    navigate(path);
+  };
+
+  return (
+    <div className="settings-container">
+      <h2>Settings</h2>
+      
+      <div className="settings-section">
+        <h3>User Profile</h3>
+        <ul>
+          <li onClick={() => navigateTo('/profile')}><FaUserCircle /> View/Edit Profile</li>
+        </ul>
+      </div>
+
+      <div className="settings-section">
+        <h3>Notification Preferences</h3>
+        <ul>
+          <li onClick={() => navigateTo('/notifications')}><FaBell /> Manage Notifications</li>
+        </ul>
+      </div>
+      
+      <div className="settings-section">
+        <h3>Privacy Settings</h3>
+        <ul>
+          <li onClick={() => navigateTo('/privacy-settings')}><FaShieldAlt /> Privacy Settings</li>
+        </ul>
+      </div>
+
+      <div className="settings-section">
+        <h3>Account Management</h3>
+        <ul>
+          <li onClick={() => navigateTo('/change-password')}><FaKey /> Change Password</li>
+          <li onClick={() => navigateTo('/delete-account')}><FaTrashAlt /> Delete Account</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Settings;
+
