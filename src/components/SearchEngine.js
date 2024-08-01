@@ -1,7 +1,7 @@
 import React from "react";
 
 function SearchEngine({ query, setQuery, search }) {
-  //handler function
+  // Handler function
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       search(e);
