@@ -62,10 +62,10 @@ function EditProfile({ user }) {
           { label: 'Phone Number', name: 'phoneNumber', value: profile.phoneNumber },
           { label: 'Email', name: 'email', value: profile.email },
           { label: 'Username', name: 'username', value: profile.username },
-          { label: 'Project Name', name: 'project', value: profile.project },
-          { label: 'College Name', name: 'college', value: profile.college },
+          // { label: 'Project Name', name: 'project', value: profile.project },
+          // { label: 'College Name', name: 'college', value: profile.college },
           { label: 'Address', name: 'address', value: profile.address },
-          { label: 'LinkedIn', name: 'linkedin', value: profile.linkedin },
+          // { label: 'LinkedIn', name: 'linkedin', value: profile.linkedin },
         ].map((field) => (
           <div className="profile-field" key={field.name}>
             <label>{field.label}</label>

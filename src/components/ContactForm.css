@@ -1,13 +1,19 @@
 .contact-form-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f9f9f9;
-    justify-content: center; /* Center horizontally */
+    justify-content: center; 
             align-items: center; 
             margin-left: 5000px;
-            place-items: center;
+            place-items: center; */
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
   }
   
   .contact-form {

@@ -37,7 +37,19 @@ const farmingTechniques = [
         title:"WetLand Farming",
         description:"This type of farming is particularly suited for the monsoon season, relying on rainfall and also adaptable to well-irrigated regions. It primarily involves the cultivation of crops such as rice, sugarcane, and jute. ",
         imageUrl:"/images/WetLand-farming.jpg"
-    }
+    },
+    {
+        title: "Crop Rotation",
+        description: "Crop rotation is the practice of growing a series of different types of crops in the same area in sequential seasons.",
+        imageUrl: "/images/crop-rotation.jpg",
+        videoUrl: "https://www.example.com/crop-rotation-video"
+    },
+    {
+        title: "Shifting Cultivation",
+        description: "Shifting cultivation involves clearing a piece of land, farming it for a few years, and then moving on to a new area.",
+        imageUrl: "/images/shifting-cultivation.jpg",
+        videoUrl: "https://www.example.com/shifting-cultivation-video"
+    },
 ];
 
 const faqData = [

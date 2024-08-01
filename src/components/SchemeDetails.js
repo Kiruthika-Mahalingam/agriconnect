@@ -16,7 +16,7 @@ const schemesData = [
     name: 'Soil Health Card Scheme',
     description: 'Improve soil health and productivity.',
     benefits: 'Provides a soil health card to monitor soil health and recommend corrective measures.',
-    imageUrl: '/images/soil-health-card.jpg',
+    imageUrl: '/images/crop-insurance.jpg',
     type: 'scheme',
   },
   {

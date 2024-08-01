@@ -16,7 +16,7 @@ const schemesData = [
     name: 'SOIL HEALTH CARD SCHEME',
     description: 'Improve soil health and productivity.',
     benefits: 'Provides a soil health card to monitor soil health and recommend corrective measures.',
-    imageUrl: '/images/soil-health-card.jpg',
+    imageUrl: '/images/crop-insurance.jpg',
     type: 'scheme',
   },
   {
@@ -32,7 +32,7 @@ const schemesData = [
     name: 'FARMERS TRAINING WORKSHOP',
     description: 'Train farmers in modern farming techniques.',
     benefits: '',
-    imageUrl: '/images/training-workshop.jpg',
+    imageUrl: '/images/organic-farming.jpg',
     type: 'workshop',
   },
   {
@@ -48,7 +48,7 @@ const schemesData = [
     name: 'SOIL HEALTH CARD SCHEME',
     description: 'Improve soil health and productivity.',
     benefits: 'Provides a soil health card to monitor soil health and recommend corrective measures.',
-    imageUrl: '/images/soil-health-card.jpg',
+    imageUrl: '/images/crop-insurance.jpg',
     type: 'scheme',
   },
   {
@@ -64,7 +64,7 @@ const schemesData = [
     name: 'FARMERS TRAINING WORKSHOP',
     description: 'Train farmers in modern farming techniques.',
     benefits: '',
-    imageUrl: '/images/training-workshop.jpg',
+    imageUrl: '/images/organic-farming.jpg',
     type: 'workshop',
   },
 ];
