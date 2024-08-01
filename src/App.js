@@ -275,6 +275,9 @@ import SuccessStories from './components/SuccessStories';
 import Home from './components/Home';
 import MarketPrices from './components/MarketPrices';
 import Events from './components/Events';
+import Forecast from './components/Forecast';
+import SearchEngine from './components/SearchEngine';
+import axios from "axios";
 
 const App = () => {
   const [user, setUser] = useState(null);
