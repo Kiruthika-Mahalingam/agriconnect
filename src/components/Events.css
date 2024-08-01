@@ -1,0 +1,109 @@
+/* Register.css */
+/* .register-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #e8f5e9; 
+    color: #1B5E20; 
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form label {
+    margin: 10px 0;
+    color: #E8F5E9; 
+  }
+  
+  .register-form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #a5d6a7; 
+    border-radius: 5px;
+  }
+  
+  .register-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E8F5E9; 
+    color: white;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color:#E8F5E9; 
+  }
+  
+.scheme-details-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #e8f5e9; 
+    color: #1b5e20; 
+  }
+  
+  .scheme-details-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .scheme-details-container h2 {
+    color: #1b5e20; 
+  }
+ 
+.schemes-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #e8f5e9;
+    color: #1B5E20; 
+  }
+  
+  .schemes-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .scheme-item {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #a5d6a7;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+    background-color: #E8F5E9; 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scheme-item:hover {
+    background-color: #E8F5E9; 
+    border-color: #81c784; 
+  }
+  
+  .scheme-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .scheme-item:hover .scheme-image {
+    transform: scale(1.1); 
+  }
+  
+  .scheme-info {
+    padding: 10px;
+  }
+  
+  .scheme-info h2 {
+    color: #1B5E20; 
+  } */

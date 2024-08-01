@@ -26,34 +26,34 @@ const SideMenu = () => {
         <Link to="/feed" className="sidebar-item" onClick={toggleSidebar}>
           <FaUser className="icon" /> Feed
         </Link>
-        <Link to="/crops-livestock" className="sidebar-item" onClick={toggleSidebar}>
+        {/* <Link to="/crops-livestock" className="sidebar-item" onClick={toggleSidebar}>
           <FaLeaf className="icon" /> Crops & Livestock
-        </Link>
+        </Link> */}
         <Link to="/weather" className="sidebar-item" onClick={toggleSidebar}>
           <FaCloudSun className="icon" /> Weather Updates
         </Link>
-        <Link to="/tips" className="sidebar-item" onClick={toggleSidebar}>
+        <Link to="/farmingtips" className="sidebar-item" onClick={toggleSidebar}>
           <FaLightbulb className="icon" /> Farming Tips
         </Link>
         <Link to="/events" className="sidebar-item" onClick={toggleSidebar}>
           <FaCalendarAlt className="icon" /> Events & Workshops
         </Link>
-        <Link to="/market-prices" className="sidebar-item" onClick={toggleSidebar}>
+        <Link to="/marketprices" className="sidebar-item" onClick={toggleSidebar}>
           <FaDollarSign className="icon" /> Market Prices
         </Link>
-        <Link to="/resources" className="sidebar-item" onClick={toggleSidebar}>
+        {/* <Link to="/resources" className="sidebar-item" onClick={toggleSidebar}>
           <FaBook className="icon" /> Resources
-        </Link>
-        <Link to="/success-stories" className="sidebar-item" onClick={toggleSidebar}>
+        </Link> */}
+        <Link to="/successstories" className="sidebar-item" onClick={toggleSidebar}>
           <FaStar className="icon" /> Success Stories
         </Link>
         <Link to="/communityforum" className="sidebar-item" onClick={toggleSidebar}>
           <FaComments className="icon" /> Community Forum
         </Link>
         
-        <Link to="/partners" className="sidebar-item" onClick={toggleSidebar}>
+        {/* <Link to="/partners" className="sidebar-item" onClick={toggleSidebar}>
           <FaHandshake className="icon" /> Partner Organizations
-        </Link>
+        </Link> */}
         <Link to="/settings" className="sidebar-item" onClick={toggleSidebar}>
           <FaCog className="icon" /> Settings
         </Link>

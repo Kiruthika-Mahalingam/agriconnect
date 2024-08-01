@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Prices</title>
+    <link rel="stylesheet" href="price.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="item" onclick="showPrices('vegetables')">
+                <img src="veggies.jpg" alt="Vegetables">
+                <p>Vegetables</p>
+            </div>
+            <div class="item" onclick="showPrices('fruits')">
+                <img src="fruits.jpeg" alt="Fruits">
+                <p>Fruits</p>
+            </div>
+            <div class="item" onclick="showPrices('dairy')">
+                <img src="dairy.jpeg" alt="Dairy Products">
+                <p>Dairy Products</p>
+            </div>
+            <div class="item" onclick="showPrices('meat')">
+                <img src="meat.jpeg" alt="Meat Products">
+                <p>Meat Products</p>
+            </div>
+        </div>
+        <iframe id="content" src="default.html" class="content"></iframe>
+    </div>
+    <script src="price.js"></script>
+</body>
+</html>
+
+

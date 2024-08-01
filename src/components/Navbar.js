@@ -643,11 +643,11 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBell} className="icon" />
         </Link>
         <FontAwesomeIcon icon={faRobot} className="icon" onClick={openChatbot} /> {/* Chatbot icon */}
-        <Link to="/feedbackform" className="feedback-button">
+        <Link to="/feedbackform" className="button">
           Feedback
         </Link>
-        <Link to="/contactform" className="feedback-button">
-          Contact Us
+        <Link to="/contactform" className="button">
+          Contact 
         </Link>
       </div>
     </nav>

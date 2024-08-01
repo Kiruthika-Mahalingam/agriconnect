@@ -4,6 +4,10 @@
     align-items: center;
     min-height: 100vh;
     background-color: #f9f9f9;
+    justify-content: center; /* Center horizontally */
+            align-items: center; 
+            margin-left: 5000px;
+            place-items: center;
   }
   
   .contact-form {
@@ -13,6 +17,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
+
   }
   
   .contact-form h2 {
@@ -46,20 +51,20 @@
     height: 100px;
   }
   
-  .submit-button {
+  .submit-btn {
     display: block;
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #007BFF;
+    background-color: #1B5E20;
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
-  .submit-button:hover {
+  .submit-btn:hover {
     background-color: #0056b3;
   }
   

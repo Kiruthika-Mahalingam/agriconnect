@@ -1,4 +1,4 @@
-/*
+/* 
 .community-forum {
     width: 60%;
     margin: 0 auto;
@@ -59,7 +59,6 @@
     margin: 10px 0;
     color: var(--black);
   }
-  */
 
 
 
@@ -205,7 +204,7 @@
     margin: 15px 0;
     padding: 15px;
     text-decoration: none;
-    color: #4CAF50; /* Green shade for text */
+    color: #4CAF50; 
     border: 1px solid #DEE2E6;
     border-radius: 8px;
     background-color: white;
@@ -216,7 +215,7 @@
   .board-list a:hover,
   .profile-list .profile-card:hover,
   .moderation-tools button:hover {
-    background-color: #4CAF50; /* Green shade */
+    background-color: #4CAF50; 
     color: white;
   }
   
@@ -237,7 +236,7 @@
   }
   
   .moderation-tools button {
-    background-color: #66BB6A; /* Light green shade */
+    background-color: #66BB6A; 
     color: white;
     border: none;
     padding: 12px;
@@ -247,8 +246,8 @@
   }
   
   .moderation-tools button:hover {
-    background-color: #388E3C; /* Darker green shade */
-  }
+    background-color: #388E3C; 
+  } */
   
 
   /*
@@ -258,3 +257,264 @@
   
 
   */
+
+
+  /* .community-forum {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .main-content {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  .main-content h1, .main-content h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .post h3 {
+    margin: 0;
+  }
+  
+  .post .user {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  .post .details {
+    margin: 10px 0;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .sidebar {
+    flex: 1;
+  }
+  
+  .sidebar .feedback, .sidebar .top-creators {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .sidebar .feedback button {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar .top-creators ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .top-creators li {
+    margin: 5px 0;
+  } */
+
+
+  /* CommunityForum.css */
+.community-forum {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: #4CAF50; /* Green shade */
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Hide the sidebar initially */
+  width: 300px;
+  height: 100%;
+  background-color: #2E7D32; /* Dark green shade */
+  color: white;
+  transition: left 0.3s ease;
+  padding: 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  overflow-y: auto; /* Allow scrolling if the content is long */
+}
+
+.sidebar.open {
+  left: 0; /* Show the sidebar when open */
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.sidebar-item:hover {
+  background-color: #66BB6A; /* Light green shade */
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.main-content {
+  margin-left: 0; /* Start from the left edge of the screen */
+  padding: 20px;
+  flex: 1;
+  background-color: #E8F5E9; /* Very light green shade */
+  overflow-y: auto; /* Allow scrolling if the content is long */
+  transition: margin-left 0.3s ease; /* Smooth transition when the sidebar opens */
+}
+
+.sidebar.open ~ .main-content {
+  margin-left: 300px; /* Adjust content margin when sidebar is open */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1B5E20; /* Dark green for headings */
+  margin-bottom: 30px;
+}
+
+.forum-post {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #4CAF50; /* Green shade */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.post-header h2 {
+  font-size: 1.5rem;
+  color: #2E7D32; /* Dark green for text */
+}
+
+.post-header span {
+  font-size: 0.9rem;
+  color: #6C757D;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #CED4DA;
+  font-size: 1rem;
+}
+
+.new-post-form button {
+  background-color: #4CAF50; /* Green shade */
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.new-post-form button:hover {
+  background-color: #388E3C; /* Darker green shade */
+}
+
+.discussion-boards,
+.user-profiles,
+.moderation-tools {
+  margin-top: 30px;
+}
+
+.board-list a,
+.profile-list .profile-card,
+.moderation-tools button {
+  display: block;
+  margin: 15px 0;
+  padding: 15px;
+  text-decoration: none;
+  color: #4CAF50; /* Green shade for text */
+  border: 1px solid #DEE2E6;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.board-list a:hover,
+.profile-list .profile-card:hover,
+.moderation-tools button:hover {
+  background-color: #4CAF50; /* Green shade */
+  color: white;
+}
+
+.profile-card {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #DEE2E6;
+  background-color: white;
+  text-align: center;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.moderation-tools button {
+  background-color: #66BB6A; /* Light green shade */
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.moderation-tools button:hover {
+  background-color: #388E3C; /* Darker green shade */
+}
