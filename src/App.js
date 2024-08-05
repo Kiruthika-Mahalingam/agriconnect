@@ -518,6 +518,7 @@ const App = () => {
     data: {},
     error: false
   });
+  // commit changes
   const [chatbotOpen, setChatbotOpen] = useState(false);
 
   const toDate = () => {
