@@ -1,0 +1,142 @@
+/* src/components/FarmingTips.css */
+#farming-tips {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #A5D6A7; /* Green border */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #c8e6c9, #a5d6a7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#farming-tips h2 {
+    color: #1B5E20; /* Dark green */
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #FFFFFF; /* White background for contrast */
+    border: 1px solid #A5D6A7; /* Green border */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.technique-content {
+    display: flex;
+    align-items: center;
+}
+
+.technique-image {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item h3 {
+    color: #1B5E20; /* Dark green */
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.grid-item p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.grid-item a {
+    color: #388E3C; /* Green link color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.grid-item a:hover {
+    text-decoration: underline;
+}
+
+.grid-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* src/components/FAQs.css */
+#faqs {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #A5D6A7; /* Green border */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #c8e6c9, #a5d6a7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#faqs h2 {
+    color: #1B5E20; /* Dark green */
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9; /* Default background */
+}
+
+.faq-item:nth-child(odd) {
+    background-color: #e8f5e9; /* Alternate background */
+}
+
+.faq-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.faq-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #A5D6A7;
+    font-size: 1em;
+}

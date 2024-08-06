@@ -1,0 +1,56 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #4CAF50;
+  padding: 1em;
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin-right: 1em;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+div {
+  padding: 2em;
+  text-align: center;
+}
+
+.home, .profile, .feed {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}

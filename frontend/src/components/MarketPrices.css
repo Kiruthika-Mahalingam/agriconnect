@@ -1,0 +1,508 @@
+/* 
+* {
+    background-color: #e8f5e9;
+}
+
+.mp {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container_mp {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar_mp{
+    width: 20%;
+    background-color: #2e7d32; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    overflow-y: auto; 
+}
+
+.item_mp {
+    text-align: center;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    flex-shrink: 0; 
+}
+
+.item_mp img {
+    width: 200px; 
+    height: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.item_mp p {
+    margin: 10px 0 0 0; 
+}
+
+.content_mp {
+    width: 80%;
+    border: none;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.card_mp:hover {
+    transform: scale(1.05);
+}
+
+.card_mp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card_mp p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.price_mp {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.vegetables_mp .card {
+    background-color: #ffffff;
+}
+
+.fruits_mp .card {
+    background-color: #ffffff;
+}
+
+.dairy_mp .card {
+    background-color: #ffffff;
+}
+
+.meat_mp .card {
+    background-color: #ffffff;
+}
+
+.apples, .orange, .grapes, .pears, .lemons {
+    background-color: #f1f8e9;
+}
+
+
+@media (max-width: 768px) {
+    .card_mp {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card_mp {
+        width: 100%;
+    }
+}
+
+
+
+.v_mp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.veg_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.veg_mp:hover {
+    transform: scale(1.05);
+}
+
+.veg_mp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.veg_mp p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.price_mp {
+    font-size: 16px;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .veg_mp {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .veg_mp {
+        width: 100%;
+    }
+}
+
+.container_mp {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar_mp {
+    width: 20%;
+    background-color: #2e7d32; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    overflow-y: auto; 
+}
+
+.item_mp {
+    text-align: center;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    flex-shrink: 0; 
+}
+
+.item_mp img {
+    width: 200px; 
+    height: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.item_mp p {
+    margin: 10px 0 0 0; 
+}
+
+.content_mp {
+    width: 80%;
+    border: none;
+}
+.d_mp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dairy_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.dairy_mp:hover {
+    transform: scale(1.05);
+}
+
+.dairy_mp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.dairy_mp p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.price_mp {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .dairy_mp {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .dairy_mp {
+        width: 100%;
+    }
+}
+
+.d_mp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dairy_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.dairy_mp:hover {
+    transform: scale(1.05);
+}
+
+.dairy_mp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.dairy_mp p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.price_mp {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .dairy_mp {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .dairy_mp {
+        width: 100%;
+    }
+}
+.fr_mp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fruit_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.fruit_mp:hover {
+    transform: scale(1.05);
+}
+
+.fruit_mp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.fruit_mp p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.price_mp {
+    font-size: 16px;
+    color: #555;
+}
+
+.apples, .orange, .grapes, .pears, .lemons {
+    background-color: #f1f8e9;
+}
+
+@media (max-width: 768px) {
+    .fruit_mp {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .veg_mp {
+        width: 100%;
+    }
+}
+
+ */
+
+
+
+ /* * {
+    background-color: #e8f5e9;
+} */
+
+.mp {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e8f5e9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container_mp {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar_mp {
+    width: 20%;
+    background-color: #2e7d32; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    overflow-y: auto; 
+}
+
+.item_mp {
+    text-align: center;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    flex-shrink: 0; 
+}
+
+.item_mp img {
+    width: 200px; 
+    height: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.item_mp p {
+    margin: 10px 0 0 0; 
+}
+
+.content_mp {
+    width: 80%;
+    border: none;
+}
+
+.card_mp, .veg_mp, .dairy_mp, .fruit_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.card_mp:hover, .veg_mp:hover, .dairy_mp:hover, .fruit_mp:hover {
+    transform: scale(1.05);
+}
+
+.card_mp img, .veg_mp img, .dairy_mp img, .fruit_mp img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card_mp p, .veg_mp p, .dairy_mp p, .fruit_mp p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.price_mp {
+    font-size: 16px;
+    color: #555;
+}
+
+.apples, .orange, .grapes, .pears, .lemons {
+    background-color: #f1f8e9;
+}
+
+.v_mp, .d_mp, .fr_mp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .card_mp, .veg_mp, .dairy_mp, .fruit_mp {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card_mp, .veg_mp, .dairy_mp, .fruit_mp {
+        width: 100%;
+    }
+}

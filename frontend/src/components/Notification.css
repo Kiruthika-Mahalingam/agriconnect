@@ -1,0 +1,59 @@
+.notification {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9f7f4; /* Light green background for a fresh look */
+  }
+  
+  .notification-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-column {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .notification-column h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #2c6b6c; /* Dark teal color for headings */
+  }
+  
+  .notification-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-column ul li {
+    background-color: #f4fdf2; /* Light green for list items */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-column ul li:hover {
+    background-color: #d8f0e8; /* Slightly darker green on hover */
+  }
+  
+  .topic-title {
+    color: #2c6b6c; /* Dark teal for topic titles */
+  }
+  
