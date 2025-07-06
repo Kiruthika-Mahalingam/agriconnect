@@ -1,3 +1,22 @@
+# AgriConnect 
+
+A social media platform built with React.js and Tailwind CSS to connect Indian farmers with agricultural experts and local communities. 
+
+Features:
+- Crop update posts
+- Q&A forums
+- Localized feed (planned)
+- Clean responsive UI (React + Tailwind)
+
+Selected for Greenathon 2024 Hackathon
+
+Team Members:
+- Diya Dhivakaran
+- Kiruthika Mahalingam
+- Sangeetha B
+
+Currently frontend-only. Backend planning underway.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
